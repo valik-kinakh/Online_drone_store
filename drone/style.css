@@ -1,0 +1,411 @@
+/*
+Theme Name: Drone
+Theme URI: https://wordpress.org/
+Author: the WordPress team
+Author URI: https://apusthemes.com/
+Description: Drone single product is clean theme, it's used Apus Framework.
+Version: 1.27
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: drone
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+img{
+    max-width: 100%;
+    height:auto;
+ }
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+
+
+
+
+
+
+
+/* line 157, ../sass/template/_menu.scss */
+.navbar-offcanvas {
+  font-size: 14px;
+  border: none;
+}
+/* line 160, ../sass/template/_menu.scss */
+.navbar-offcanvas .navbar-collapse {
+  padding: 0;
+}
+/* line 163, ../sass/template/_menu.scss */
+.navbar-offcanvas .navbar-nav {
+  width: 100%;
+  float: none;
+  margin: 0;
+}
+/* line 167, ../sass/template/_menu.scss */
+.navbar-offcanvas .navbar-nav > li {
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 170, ../sass/template/_menu.scss */
+.navbar-offcanvas .navbar-nav li {
+  display: block;
+  float: none;
+  position: relative;
+  line-height: 2.5;
+}
+/* line 175, ../sass/template/_menu.scss */
+.navbar-offcanvas .navbar-nav li > .icon-toggle {
+  position: absolute;
+  z-index: 9;
+  top: 1px;
+  right: 12px;
+  cursor: pointer;
+  padding: 5px 20px;
+  color: #242424;
+}
+/* line 115, ../sass/rtl/_rtl.scss */
+.rtl .navbar-offcanvas .navbar-nav li > .icon-toggle {
+  left: 12px;
+  right: auto;
+}
+/* line 183, ../sass/template/_menu.scss */
+.navbar-offcanvas .navbar-nav li > .icon-toggle:hover {
+  color: #a1d407;
+}
+/* line 186, ../sass/template/_menu.scss */
+.navbar-offcanvas .navbar-nav li > .icon-toggle i {
+  font-weight: 400;
+}
+/* line 190, ../sass/template/_menu.scss */
+.navbar-offcanvas .navbar-nav li > a {
+  background: transparent;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Libre Franklin", serif;
+  display: block;
+  padding: 10px 25px;
+  width: 100%;
+  color: #616161;
+}
+/* line 203, ../sass/template/_menu.scss */
+.navbar-offcanvas .navbar-nav li:hover > a, .navbar-offcanvas .navbar-nav li.open > a, .navbar-offcanvas .navbar-nav li.active > a {
+  color: #a1d407;
+}
+/* line 209, ../sass/template/_menu.scss */
+.navbar-offcanvas .dropdown-menu {
+  margin: 0;
+}
+/* line 212, ../sass/template/_menu.scss */
+.navbar-offcanvas .dropdown-menu > li a {
+  background: transparent !important;
+}
+/* line 215, ../sass/template/_menu.scss */
+.navbar-offcanvas .dropdown-menu > li.active > a,
+.navbar-offcanvas .dropdown-menu > li > a:hover,
+.navbar-offcanvas .dropdown-menu > li > a:focus {
+  color: #242424;
+  text-decoration: underline;
+}
+/* line 222, ../sass/template/_menu.scss */
+.navbar-offcanvas .dropdown-menu [class*="col-sm"] {
+  width: 100%;
+}
+/* line 225, ../sass/template/_menu.scss */
+.navbar-offcanvas .dropdown-menu .dropdown-menu-inner {
+  padding: 0 18px;
+}
+/* line 228, ../sass/template/_menu.scss */
+.navbar-offcanvas .dropdown-menu .widgettitle {
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+/* line 232, ../sass/template/_menu.scss */
+.navbar-offcanvas .dropdown-menu .dropdown-menu {
+  left: 100%;
+  top: 0;
+}
+/* line 238, ../sass/template/_menu.scss */
+.navbar-offcanvas li:hover .dropdown-menu {
+  display: block;
+}
+/* line 243, ../sass/template/_menu.scss */
+.navbar-offcanvas .aligned-fullwidth > .dropdown-menu {
+  width: 100%;
+}
+
+/* line 252, ../sass/template/_menu.scss */
+#main-mobile-menu-vertical .has-submenu > .sub-menu,
+#main-mobile-menu .has-submenu > .sub-menu {
+  padding-left: 10px;
+  list-style: none;
+  display: none;
+}
+/* line 22, ../sass/rtl/_rtl.scss */
+.rtl #main-mobile-menu-vertical .has-submenu > .sub-menu, .rtl
+#main-mobile-menu .has-submenu > .sub-menu {
+  padding-right: 10px;
+  padding-left: inherit;
+}
+/* line 256, ../sass/template/_menu.scss */
+#main-mobile-menu-vertical .has-submenu > .sub-menu li,
+#main-mobile-menu .has-submenu > .sub-menu li {
+  line-height: 1.2;
+}
+/* line 258, ../sass/template/_menu.scss */
+#main-mobile-menu-vertical .has-submenu > .sub-menu li .icon-toggle,
+#main-mobile-menu .has-submenu > .sub-menu li .icon-toggle {
+  top: 3px;
+}
+
+/* line 266, ../sass/template/_menu.scss */
+#apus-mobile-menu .btn-toggle-canvas {
+  padding: 8px 15px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+/* line 271, ../sass/template/_menu.scss */
+#apus-mobile-menu .offcanvas-head strong {
+  margin: 0 5px;
+}
+/* line 276, ../sass/template/_menu.scss */
+#apus-mobile-menu .apus-search,
+#apus-mobile-menu .button-search {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+/* line 280, ../sass/template/_menu.scss */
+#apus-mobile-menu .apus-search-form {
+  margin: 20px 10px;
+  overflow: hidden;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+/* line 284, ../sass/template/_menu.scss */
+#apus-mobile-menu .apus-search-form .apus-search {
+  width: 200px;
+}
+/* line 287, ../sass/template/_menu.scss */
+#apus-mobile-menu .apus-search-form .select-category {
+  display: none;
+}
+/* line 292, ../sass/template/_menu.scss */
+#apus-mobile-menu .setting {
+  font-size: 16px;
+  color: #616161;
+  padding: 0 25px;
+  margin: 30px 0 10px;
+  text-transform: uppercase;
+}
+/* line 298, ../sass/template/_menu.scss */
+#apus-mobile-menu .setting i {
+  margin-right: 3px;
+}
+/* line 22, ../sass/rtl/_rtl.scss */
+.rtl #apus-mobile-menu .setting i {
+  margin-left: 3px;
+  margin-right: inherit;
+}
+/* line 302, ../sass/template/_menu.scss */
+#apus-mobile-menu .menu-topbar {
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+/* line 307, ../sass/template/_menu.scss */
+#apus-mobile-menu .menu-topbar li {
+  line-height: 2.5;
+  border-bottom: 1px solid #eeeeee;
+}
+/* line 310, ../sass/template/_menu.scss */
+#apus-mobile-menu .menu-topbar li a {
+  padding: 7px 25px;
+  display: block;
+}
+/* line 316, ../sass/template/_menu.scss */
+#apus-mobile-menu .vertical-title {
+  font-size: 18px;
+  padding: 0 15px;
+}
+/* line 321, ../sass/template/_menu.scss */
+#apus-mobile-menu .vertical .dropdown-menu-inner {
+  overflow: hidden;
+}
+/* line 323, ../sass/template/_menu.scss */
+#apus-mobile-menu .vertical .dropdown-menu-inner > .kc-elm {
+  padding: 0 !important;
+}
+/* line 326, ../sass/template/_menu.scss */
+#apus-mobile-menu .vertical .dropdown-menu-inner .menu li > a {
+  padding: 10px 0;
+  font-size: 12px;
+  text-transform: inherit;
+}
+/* line 332, ../sass/template/_menu.scss */
+#apus-mobile-menu .vertical .widget {
+  margin: 0;
+}
+.wp-block-categories-list.aligncenter{
+    text-align: center;
+}
+.product-block.grid .groups-button > * {
+    margin: 0 2px;
+}
+@media(max-width:767px){
+  .product-block.grid .groups-button{
+    display:none;
+  }
+}
+@media(max-width:479px){
+  .widget.widget-text-heading .action .btn{
+    margin-bottom: 5px;
+  }
+  .widget-gallery.style2 .heading {
+      padding: 30px 0;
+  }
+  .widget-gallery.style2 .description{
+    text-align: center;
+  }
+  .widget-gallery.style2 .description .btn{
+    float: none !important;
+  }
+  .widget-gallery .description h3.title-des{
+    margin:0 0 10px;
+  }
+}
+
+fieldset {
+  clear: both;
+  overflow: hidden;
+}
+
+.woocommerce form .form-row .woocommerce-form__label-for-checkbox .input-checkbox {
+  margin: 0;
+    left: -20px;
+    top: 2px;
+    outline: none;
+}
+.woocommerce form .form-row #ship-to-different-address .woocommerce-form__label-for-checkbox .input-checkbox {
+  top: 11px;
+}
+
+.modal-body button.close {
+      position: relative;
+    z-index: 10;
+}
+rs-module-wrap{
+    z-index: 0;
+}
+.yith-wcwl-add-button > a > i, .wishlist_table .add_to_cart.button > i {
+    display: none;
+}
